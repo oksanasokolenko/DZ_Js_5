@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Move Rect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>
+    Задание 5.
+
+    Пользователь заполняет форму состоящую из:
+    фамилии
+    имени
+    пароля
+    email
+
+    Используя приведенные методы выполните обработку формы состоящую из:
+    удаления пробелов до и после введённых слов
+    пароль не должен быть меньше 5 символов
+    email должен содержать один символ @ и не содержать пробелов
+
+    Если форма заполнена корректно, возвращать true.
+</p>
+<hr>
+
+<form id="register">
+
+    <label>
+        Name
+        <input type="text" name="name">
+    </label>
+
+    <label>
+        Surname
+        <input type="text" name="surname">
+    </label>
+
+    <label>
+        Email
+        <input type="email" name="email">
+    </label>
+
+    <label>
+        Password
+        <input type="password" name="password">
+    </label>
+
+    <div id="error"></div>
+
+    <button type="submit">Check</button>
+
+</form>
+
+<!-- посмотреть и разобрать типы input и их совсместимость с браузерами -->
+
+<script src="main.js"></script>
+
+</body>
+</html>
